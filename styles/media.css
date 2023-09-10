@@ -1,0 +1,110 @@
+@media (max-width: 1210px) {
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .header__nav-list-left {
+    justify-content: space-around;
+    gap: 30px;
+  }
+  /*     .header__nav {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    } */
+}
+
+@media (max-width: 1140px) {
+  .header__content-items {
+    grid-template-columns: 1fr;
+  }
+  .item-3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+
+    grid-column-end: 2;
+    grid-row-end: 4;
+  }
+  .item-3 .header__content-item__info {
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 950px) {
+  .main__items {
+    grid-template-columns: 1fr;
+  }
+  .main__item{
+    max-width: none;
+  }
+  .main__advice-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__nav {
+    justify-content: space-around;
+    
+    gap: 30px;
+  }
+}
+
+@media(max-width: 730px) {
+  .footer__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__nav-info-list,
+  .footer__nav-goods-list,
+  .footer__nav-contacts-list,
+  .footer__nav-contacts-bottom,
+  .footer__nav-bottom-list,
+  .footer__nav-title-second {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header__nav-list-left {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 555px) {
+  .header__content-item__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+  }
+  .item-1 .header__content-item__info,
+  .item-2 .header__content-item__info,
+  .item-3 .header__content-item__info {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .header__content-img,
+  .main__item-img {
+    margin-top: 45px;
+  }
+  .header__content-item {
+    min-width: 100%;
+  }
+}
+
+@media(max-width: 358px) {
+  .footer__nav-call {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 550px) {
+  .main__content-headline {
+    text-align: center;
+  }
+  .main__content-secondtext {
+    text-align: center;
+  }
+}
